@@ -1,0 +1,70 @@
+/* General Body Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #F8F9FA;
+  color: #333;
+  line-height: 1.6;
+  margin: 20px;
+}
+
+/* Header Styles */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-family: 'Merriweather', serif;
+  color: #007BFF; /* Primary Blue */
+}
+
+/* Section Styles */
+h2 {
+  font-family: 'Merriweather', serif;
+  color: #007BFF; /* Primary Blue */
+  border-bottom: 2px solid #007BFF;
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+
+/* Link Styles */
+a {
+  color: #007BFF; /* Primary Blue */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Wireframe Image Styles */
+.wireframe {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+}
+
+/* Wireframe Container */
+.wireframe-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Media Query for Larger Screens */
+@media (min-width: 768px) {
+  .wireframe-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .wireframe-container > div {
+    flex-basis: 48%;
+  }
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-style: italic;
+  color: #6C757D; /* Softer Blue */
+}
